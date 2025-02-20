@@ -37,4 +37,4 @@ if [[ "$fix_proto" == "y" || "$fix_proto" == "Y" ]]; then
     sudo unzip protoc-30.0-rc-1-linux-x86_64.zip -d /usr/local/
     sudo chmod +x /usr/local/bin/protoc
     echo -e "${GREEN}Protobuf fix completed!${NC}"
-fi
+fi  # Fixed closing 'fi' statement
